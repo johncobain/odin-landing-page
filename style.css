@@ -50,7 +50,7 @@ header a{
 .content h1{
     color: #F9FAF8;
     font-size: 48px;
-    font-weight: 700;
+    font-weight: bolder;
 }
 
 .content p{
@@ -78,3 +78,38 @@ header a{
     border-radius: 5px;
     margin: 16px 0;
 }
+
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info h2{
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: bolder;
+    margin: 40px auto 70px;
+}
+
+.info .images{
+    display: flex;
+    gap: 75px;
+}
+
+.info .images .img-container{
+    width: 150px;
+}
+
+.info .images .img-info{
+    height: 150px;
+    width: 150px;
+    border: 2px solid rgb(0, 60, 255);
+    border-radius: 10px;
+}
+
+.info .images p{
+    text-align: center;
+    margin: 10px 0;
+}
+
