@@ -104,7 +104,7 @@ header a{
 .info .images .img-info{
     height: 170px;
     width: 170px;
-    border: 2px solid rgb(0, 60, 255);
+    border: 2px solid #3882F6;
     border-radius: 10px;
 }
 
@@ -129,6 +129,46 @@ header a{
 
 .quote .author{
     margin-left: auto;
+}
+
+.sing-up{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+
+.sing-up .sing-up-box{
+    background-color: #3882F6;
+    height: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.sing-up .sing-up-box .text h3{
+    color: #F9FAF8;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.sing-up .sing-up-box .text p{
+    color: #E5E7EB;
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+.sing-up .sing-up-box button{
+    background-color: #3882F6;
+    border: 2px solid #F9FAF8;
+    border-radius: 7px;
+    padding: 5px 25px;
+    color: #F9FAF8;
+    font-size: 18px;
+    font-weight: 600;
+
 }
 
 footer{
