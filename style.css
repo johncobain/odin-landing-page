@@ -130,3 +130,12 @@ header a{
 .quote .author{
     margin-left: auto;
 }
+
+footer{
+    background-color: #1F2937;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #E5E7EB;
+}
